@@ -11,7 +11,7 @@ while 0<a<=10:
         print("TRY AGAIN!!try for lower")
         a=a-1
         print(f"you have {a} attempts more ")
-    elif 0<guess < real:
+    elif guess < real:
         print("ITS WRONG!! try for higher")
         a=a-1
         print(f"you have{a}attempts")
