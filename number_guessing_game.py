@@ -5,10 +5,8 @@ a=10
 print(f"you have {a}attempts")
 real=85
 print("press 0 and enter to quit the game")
-
-while True:
+while 0<a<=10:
     guess=int(input("enter your guessed number:"))
-
     if guess>real:
         print("TRY AGAIN!!try for lower")
         a=a-1
@@ -23,5 +21,5 @@ while True:
     else:
         print("congratulations!! YOU GUESSED THE NUMBER CORRECTLY!")
         break
-print("GAME OVER!!")
+print("OOPS!! THE CHANCES ARE OVER. RESTART THE GAME...")
 
